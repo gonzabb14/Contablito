@@ -15,13 +15,13 @@ main {
 }
 
 .container {
-    display: flex;
+    display: flexbox;
     justify-content: space-around;
     align-items: center;
     border: 2px solid black;
     border-radius: 10px;
     width: 400px;
-    height: 500px;
+    height: 800px;
     background-color: #333333;
     text-align: center;
 }
@@ -90,10 +90,11 @@ label {
 
 .btn {
     width: 60%;
+    margin-left: 125%;
 }
 
 .input {
-    border-radius: 5px;
+    border-radius: 15px;
 }
 h1 {
     text-align: center;
@@ -107,4 +108,17 @@ h1 {
 }
 #textarea {
     resize: none;
+}
+a:hover {
+    transform: scale(1.05);
+}
+a {
+    transition: all 0.1s;
+}
+
+form label {
+    font-size: 2rem;
+}
+.input {
+    width: 1000px;
 }
