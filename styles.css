@@ -6,6 +6,18 @@ body {
     background-color: #34393f ;
 }
 
+#body {
+    background-image: url('./img/Sin\ título.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #34393f;
+}
+
+#h1 {
+    color: white;
+}
+
 main {
     display: block;
     justify-content: center;
