@@ -82,3 +82,11 @@ label {
     flex-direction: column;
     justify-content: space-around;
 }
+
+.btn {
+    width: 70%;
+}
+
+.input {
+    border-radius: 5px;
+}
