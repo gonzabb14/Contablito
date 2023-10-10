@@ -3,6 +3,7 @@ body {
     margin: 0px;
     overflow-x: hidden;
     /* scale: 2; */
+    background-color: #34393f ;
 }
 
 main {
@@ -15,19 +16,22 @@ main {
 }
 
 .container {
-    display: flexbox;
     justify-content: space-around;
     align-items: center;
     border: 2px solid black;
     border-radius: 10px;
-    width: 400px;
-    height: 800px;
-    background-color: #333333;
-    text-align: center;
+    width: 10px;
+    height: 900px;
+    background-color: #34393f;
+    background-image: url('./img/Sin\ título.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
- .btn-primary {
-    margin-left: 63px;
- }
+
+.btn-primary {
+    margin-left: 0px;
+}
 
 #agregar-producto {
     display: flex;
@@ -90,35 +94,57 @@ label {
 
 .btn {
     width: 60%;
-    margin-left: 125%;
+    margin-left: 23%;
 }
 
 .input {
     border-radius: 15px;
 }
+
 h1 {
     text-align: center;
 }
+
 .name {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 #structure {
     color: white;
 }
+
 #textarea {
     resize: none;
 }
+
 a:hover {
     transform: scale(1.05);
 }
+
 a {
     transition: all 0.1s;
 }
 
 form label {
     font-size: 2rem;
+    text-align: center;
+
 }
+
 .input {
-    width: 1000px;
+    text-align: center;
+    margin-left: 80px ;
+}
+
+/* .txt {
+    width: 300%;
+    margin-left: 20%;
+} */
+#compraventa {
+    width: 300px;
+}
+
+#fecha {
+    width: 300px;
 }

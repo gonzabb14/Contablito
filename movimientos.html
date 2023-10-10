@@ -27,25 +27,34 @@
   </div>
 </nav>
 <div class="name"><h1>Movimientos</h1></div>
-        <div class="container">
-            <div class="row" id="agregar-producto">  
+        <div class="container col-lg-7 col-md-9 col-sm-12">
+            <div id="agregar-producto">  
                 <form action=""id="structure">
-                    <label for="">Nombre <br>
-                        <input class="input" type="text" name="nombre-producto" id="nombre-producto">
+                    <label for="">Compra/venta: <br>
+                        <select class="input" name="Compra/venta" id="compraventa">
+                            <option value="Compra">Compra</option>
+                            <option value="Venta">Venta</option>
+                        </select>
                     </label>
-                    <label for="">ID <br>
-                        <input class="input" type="text" name="id-producto" id="id-producto">
+                    <label for="">Fecha: <br>
+                        <input class="input txt" type="date" name="Fecha" id="fecha">
                     </label>
-                    <label for="">Descripción <br>
-                        <textarea id="textarea" class="input" name="descripcion-producto" id="descripcion-producto" cols="23" rows="3"></textarea>
+                    <label for="">ID Producto: <br>
+                        <input type="text" id="textarea" class="input" name="descripcion-producto" id="descripcion-producto" cols="23" rows="3">
                     </label>
                     <label for="">Cantidad <br>
-                        <input class="input" type="text" name="stock-producto" id="stock-producto">
+                        <input class="input txt" type="text" name="stock-producto" id="stock-producto">
                     </label>
-                    <label for="">Precio (U$) <br>
-                        <input class="input" type="text" name="costo-producto" id="costo-producto">
+                    <label for=""> Precio unitario (U$): <br>
+                        <input class="input txt" type="text" name="costo-producto" id="costo-producto">
                     </label>
-                    <button class=" btn btn-primary my-2">Agregar</button>
+                    <label for="">Subtotal:
+                     <input class="input" type="text" name="Subtotal"></label>
+                    <label for="IVA">IVA: 
+                    <select class="input" name="IVA" id="IVA"> <option value="22%">22% (Tasa básica)
+                    <option value="10%">0% (Productos gropecuarios) </option>
+                    </option> </select> </label>
+                    <button class=" btn btn-primary my-3">Agregar</button>
                 </form>
             </div>
             <!-- <div class="" id="productos">
