@@ -14,7 +14,7 @@ main {
     overflow-x: hidden;
 }
 
-#contenedor {
+.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -84,7 +84,7 @@ label {
 }
 
 .btn {
-    width: 70%;
+    width: 64%;
 }
 
 .input {
