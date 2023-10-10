@@ -2,6 +2,7 @@ body {
     height: 100vh;
     margin: 0px;
     overflow-x: hidden;
+    scale: 2;
 }
 
 main {
@@ -63,19 +64,21 @@ label {
 #primer-producto {
     border: 1px solid black;
     border-top-right-radius: 10px;
-    width: 330px;
-    height: 59px;
-}
-
-.producto {
-    border: 1px solid black;
-    width: 330px;
-    height: 59px;
-}
-
-#ultimo-producto {
-    border: 1px solid black;
-    width: 330px;
     border-bottom-right-radius: 10px;
-    height: 59px;
+    margin: 10px;
+    width: 330px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#producto {
+    margin: 10px;
+    border: 0px solid black;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
