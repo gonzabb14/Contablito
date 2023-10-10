@@ -17,10 +17,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/inventario.html?nombre-producto=&id-producto=&descripcion-producto=&stock-producto=&costo-producto=#inventario.html">Inventario</a>
+          <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/movimientos.html?nombre-producto=&id-producto=&descripcion-producto=&stock-producto=&costo-producto=#inventario.html">Movimientos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/movimientos.html?nombre-producto=&id-producto=&descripcion-producto=&stock-producto=&costo-producto=#inventario.html">Movimientos</a>
+          <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/inventario.html?nombre-producto=&id-producto=&descripcion-producto=&stock-producto=&costo-producto=#inventario.html">Inventario</a>
         </li>
       </ul>
     </div>
@@ -30,31 +30,33 @@
         <div class="container col-lg-7 col-md-9 col-sm-12">
             <div id="agregar-producto">  
                 <form action=""id="structure">
-                    <label for="">Compra/venta: <br>
+                    <label class="txt" for="">Movimiento: <br>
                         <select class="input" name="Compra/venta" id="compraventa">
                             <option value="Compra">Compra</option>
                             <option value="Venta">Venta</option>
                         </select>
                     </label>
-                    <label for="">Fecha: <br>
+                    <label class="txt" for="">Fecha: <br>
                         <input class="input txt" type="date" name="Fecha" id="fecha">
                     </label>
-                    <label for="">ID Producto: <br>
-                        <input type="text" id="textarea" class="input" name="descripcion-producto" id="descripcion-producto" cols="23" rows="3">
+                    <label class="txt" for="">ID Producto: <br>
+                        <input placeholder="Número de ID" type="text" id="textarea" class="input" name="descripcion-producto" id="descripcion-producto" cols="23" rows="3">
                     </label>
-                    <label for="">Cantidad <br>
-                        <input class="input txt" type="text" name="stock-producto" id="stock-producto">
+                    <label class="txt" for="">Cantidad: <br>
+                        <input placeholder="Cantidad de productos" class="input txt" type="text" name="stock-producto" id="stock-producto">
                     </label>
-                    <label for=""> Precio unitario (U$): <br>
-                        <input class="input txt" type="text" name="costo-producto" id="costo-producto">
+                    <label class="txt" for=""> Precio unitario: <br>
+                        <input placeholder="Precio (U$)" class="input txt" type="text" name="costo-producto" id="costo-producto">
                     </label>
-                    <label for="">Subtotal:
-                     <input class="input" type="text" name="Subtotal"></label>
-                    <label for="IVA">IVA: 
-                    <select class="input" name="IVA" id="IVA"> <option value="22%">22% (Tasa básica)
+                    <label class="txt" for="">Subtotal:
+                     <input placeholder="Subtotal (U$)" class="input" type="text" name="Subtotal"></label>
+                    <label class="txt" for="IVA">IVA: 
+                    <select style="width: 375px;" class="input" name="IVA" id="IVA"> <option value="22%">22% (Tasa básica)
                     <option value="10%">0% (Productos gropecuarios) </option>
                     </option> </select> </label>
-                    <button class=" btn btn-primary my-3">Agregar</button>
+                    <label class="txt" for="">Total: <br>
+                    <input placeholder="Total ($)" type="text" class="input" name="Total" id="total"></label>
+                    <button id="button" class=" btn btn-primary my-3">Agregar</button>
                 </form>
             </div>
             <!-- <div class="" id="productos">
