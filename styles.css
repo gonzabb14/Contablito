@@ -2,15 +2,15 @@ body {
     height: 100vh;
     margin: 0px;
     overflow-x: hidden;
-    scale: 2;
+    /* scale: 2; */
 }
 
 main {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0px;
+    margin: 100px;
     overflow-x: hidden;
 }
 
