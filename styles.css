@@ -20,9 +20,14 @@ main {
     align-items: center;
     border: 2px solid black;
     border-radius: 10px;
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
+    background-color: #333333;
+    text-align: center;
 }
+ .btn-primary {
+    margin-left: 63px;
+ }
 
 #agregar-producto {
     display: flex;
@@ -84,9 +89,22 @@ label {
 }
 
 .btn {
-    width: 64%;
+    width: 60%;
 }
 
 .input {
     border-radius: 5px;
+}
+h1 {
+    text-align: center;
+}
+.name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#structure {
+    color: white;
+}
+#textarea {
+    resize: none;
 }
