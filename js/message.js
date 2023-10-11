@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const formulario = document.getElementById("structure")
         formulario.reset();
         const mensaje = document.getElementById("message")
-        mensaje.innerHTML = '¡Producto agregado!';
+        mensaje.innerHTML = '¡Movimiento agregado!';
         mensaje.style.display = 'block';
         mensaje.classList.add('alert');
         setTimeout(function () {
