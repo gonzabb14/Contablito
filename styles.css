@@ -14,6 +14,10 @@ body {
     background-color: #34393f;
 }
 
+#lugar_clavos {
+    background-color: #34393f;
+}
+
 #h1 {
     color: white;
 }
@@ -162,3 +166,30 @@ form label.txt {
 #cont {
     height: 800px;
 }
+
+#clavos img {
+    width: 300px;
+    margin-left: 5%;
+    transition: all 0.5s;
+}
+
+#clavos img:hover {
+    transform: scale(1.02);
+}
+
+#clavos p {
+    color: white;
+    margin-left: 34%;
+}
+
+#atras {
+    color: white;
+    text-decoration: none;
+    margin-left: 3%;
+    font-size: 1.5rem;
+}
+
+#atras a:hover {
+    transform: scale(1.5);
+}
+
