@@ -4,6 +4,10 @@ body {
     overflow-x: hidden;
     /* scale: 2; */
     background-color: #34393f ;
+    background-image: url('./img/funciones-del-jefe-de-compras-6.png');
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 #body {
@@ -106,7 +110,7 @@ label {
 
 .btn {
     width: 80%;
-    margin-left: 21%;
+    margin-left: 18%;
 }
 
 .input {
@@ -223,3 +227,6 @@ form label.txt {
     /* margin-right: 40%; */
 }
 
+#imagen_clavo {
+    width: 400px;
+}
