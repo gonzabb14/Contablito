@@ -22,10 +22,6 @@ body {
     background-color: #34393f;
 }
 
-#h1 {
-    color: white;
-}
-
 main {
     display: block;
     justify-content: center;
@@ -285,7 +281,3 @@ form label.txt {
  h2 {
     margin-left: 70px;
  }
-
- /* #user {
-    margin-left: 770px;
- } */
