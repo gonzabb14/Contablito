@@ -2,26 +2,47 @@ body {
     height: 100vh;
     margin: 0px;
     overflow-x: hidden;
-    scale: 2;
+    /* scale: 2; */
+    background-color: #34393f ;
+    background-image: url('./img/funciones-del-jefe-de-compras-6.png');
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#body {
+    background-image: url('./img/Sin\ título.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #34393f;
+}
+
+#lugar_clavos {
+    background-color: #34393f;
 }
 
 main {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0px;
+    margin: 100px;
     overflow-x: hidden;
 }
 
-#contenedor {
-    display: flex;
+.container {
     justify-content: space-around;
     align-items: center;
     border: 2px solid black;
     border-radius: 10px;
-    width: 700px;
-    height: 400px;
+    width: 10px;
+    height: 1000px;
+    background-color: #34393f;
+    background-image: url('./img/Sin\ título.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #agregar-producto {
@@ -84,9 +105,179 @@ label {
 }
 
 .btn {
-    width: 70%;
+    width: 80%;
+    margin-left: 18%;
 }
 
 .input {
-    border-radius: 5px;
+    border-radius: 15px;
 }
+
+h1 {
+    text-align: center;
+}
+
+.name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#structure {
+    color: white;
+}
+
+#textarea {
+    resize: none;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+a {
+    transition: all 0.1s;
+}
+
+form label {
+    font-size: 2rem;
+    text-align: center;
+    /* margin-left: 90%; */
+
+}
+
+.txt {
+    width: 300px;
+}
+
+form label.txt {
+    text-align: center;
+}
+
+
+/* .txt {
+    width: 300%;
+    margin-left: 20%;
+} */
+#compraventa {
+    width: 300px;
+}
+
+#fecha {
+    width: 300px;
+}
+#cont {
+    height: 800px;
+}
+
+#clavos img {
+    width: 300px;
+    margin-left: 5%;
+    transition: all 0.5s;
+}
+
+#clavos img:hover {
+    transform: scale(1.02);
+}
+
+#clavos p {
+    color: white;
+    margin-left: 34%;
+}
+
+#atras {
+    color: white;
+    text-decoration: none;
+    margin-left: 3%;
+    font-size: 1.5rem;
+}
+
+#atras a:hover {
+    transform: scale(1.5);
+}
+
+#mensaje {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 350px;
+    margin-left: 40px;
+    /* margin-right: 40%; */
+}
+
+#message {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 520px;
+    margin-left: 45px;
+    /* margin-right: 40%; */
+}
+
+#imagen_clavo {
+    width: 400px;
+    margin-left: 15px;
+}
+
+.card-body {
+    margin-left: 25px;
+}
+
+ .login-container {
+     width: 300px;
+     margin: 0 auto;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     margin-top: 50px;
+     background-color: #34393f;
+ }
+
+ /* Estilos para los campos de entrada y etiquetas */
+ .form-group {
+     margin: 10px 0;
+ }
+
+ .form-group label {
+     display: block;
+     margin-bottom: 5px;
+ }
+
+ .form-group input {
+     width: 100%;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+
+ /* Estilos para el botón de inicio de sesión */
+ .login-button {
+     background-color: #007bff;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-left: 30px;
+ }
+
+ .login-button:hover {
+     background-color: #0056b3;
+ }
+
+ .login {
+    color: white;
+ }
+
+ h2 {
+    margin-left: 70px;
+ }
