@@ -11,15 +11,15 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   </head>
   <body>
-    <!-- <main> -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
       <div class="container-fluid">
         <a
           class="navbar-brand"
-          href="http://127.0.0.1:5500/index.html?nombre-producto=&id-producto=&descripcion-producto=&stock-producto=&costo-producto=#inventario.html"
-          >Registro de productos</a
+          href="http://127.0.0.1:5500/login.html?nombre-producto=&id-producto=&descripcion-producto=&stock-producto=&costo-producto=#inventario.html"
+          ><i class="fa-regular fa-user"></i> Mi perfil</a
         >
         <button
           class="navbar-toggler"
@@ -38,12 +38,20 @@
               <a
                 class="nav-link active"
                 aria-current="page"
-                href="http://127.0.0.1:5500/movimientos.html?nombre-producto=&id-producto=&descripcion-producto=&stock-producto=&costo-producto=#inventario.html"
-                >Movimientos</a
+                href="http://127.0.0.1:5500/index.html?nombre-producto=&id-producto=&descripcion-producto=&stock-producto=&costo-producto=#inventario.html"
+                >Registro</a
               >
             </li>
             <li class="nav-item">
               <a
+                class="nav-link active"
+                aria-current="page"
+                href="http://127.0.0.1:5500/movimientos.html?nombre-producto=&id-producto=&descripcion-producto=&stock-producto=&costo-producto=#inventario.html"
+                >Movimientos</a
+              >
+            </li>  
+            <li id="user" class="nav-item">
+             <a
                 class="nav-link active"
                 aria-current="page"
                 href="http://127.0.0.1:5500/inventario.html?nombre-producto=&id-producto=&descripcion-producto=&stock-producto=&costo-producto=#inventario.html"
@@ -116,23 +124,14 @@
       </div>
 
       <div class="alert" id="mensaje" style="display: none"></div>
-      <!-- <div class="" id="productos">
-                <div id="primer-producto">
-                    <div id="producto">
-                        <p>Nombre: Ford Mustang</p>
-                        <p>ID: 54835</p>
-                        <p>Descripción: La potencia y torsión son atributos independientes y es posible que no se logren en forma simultánea</p>
-                        <p>Cantidad: 8</p>
-                        <p>Precio: U$D 55.000</p>
-                    </div>
-            </div> -->
     </div>
-    <!-- </main> -->
     <script src="./js/main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
