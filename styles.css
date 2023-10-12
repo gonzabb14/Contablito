@@ -140,24 +140,13 @@ a {
 
 form label {
     font-size: 2rem;
-    text-align: center;
-    /* margin-left: 90%; */
+
 
 }
 
 .txt {
     width: 300px;
 }
-
-form label.txt {
-    text-align: center;
-}
-
-
-/* .txt {
-    width: 300%;
-    margin-left: 20%;
-} */
 #compraventa {
     width: 300px;
 }
